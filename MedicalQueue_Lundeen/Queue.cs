@@ -44,7 +44,7 @@ namespace MedicalQueue_Lundeen
                 QueueList += Current.Data.ToString() + "\n";
                 Current = Current.Next;
             }
-            // Can be null
+            // Can be Empty
             return QueueList;
         }
     }
